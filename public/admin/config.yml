@@ -1,0 +1,27 @@
+backend:
+  name: github
+  repo: sebasyc/boletin-mensual-barrio-san-manuel
+  branch: main
+  base_url: https://boletin-mensual-barrio-san-manuel.netlify.app/
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "home"
+    label: "Textos e imágenes del landing"
+    files:
+      - file: "content/home.json"
+        label: "Contenido principal"
+        name: "home"
+        fields:
+          - { label: "Título hero", name: "hero_title", widget: "string" }
+          - { label: "Subtítulo", name: "hero_subtitle", widget: "text" }
+          - { label: "Imagen hero", name: "hero_image", widget: "image" }
+          - label: "Secciones"
+            name: "sections"
+            widget: "list"
+            fields:
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Texto", name: "body", widget: "text" }
+              - { label: "Imagen", name: "image", widget: "image", required: false }
