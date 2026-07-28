@@ -2,6 +2,7 @@ backend:
   name: github
   repo: sebasyc/boletin-mensual-barrio-san-manuel
   branch: main
+  site_domain: boletin-mensual-barrio-san-manuel.netlify.app
 
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
