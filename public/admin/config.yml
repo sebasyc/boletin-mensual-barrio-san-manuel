@@ -9,19 +9,37 @@ public_folder: "/images/uploads"
 
 collections:
   - name: "home"
-    label: "Textos e imágenes del landing"
+    label: "Boletín mensual"
     files:
       - file: "content/home.json"
-        label: "Contenido principal"
+        label: "Contenido del boletín"
         name: "home"
         fields:
-          - { label: "Título hero", name: "hero_title", widget: "string" }
-          - { label: "Subtítulo", name: "hero_subtitle", widget: "text" }
-          - { label: "Imagen hero", name: "hero_image", widget: "image" }
-          - label: "Secciones"
-            name: "sections"
+          - { label: "Título", name: "hero_title", widget: "string" }
+          - { label: "Subtítulo / Parroquia", name: "hero_subtitle", widget: "string" }
+          - { label: "Imagen de portada", name: "hero_image", widget: "image" }
+
+          - { label: "Título de horarios", name: "schedule_title", widget: "string" }
+          - label: "Horarios"
+            name: "schedule_items"
             widget: "list"
             fields:
-              - { label: "Título", name: "title", widget: "string" }
-              - { label: "Texto", name: "body", widget: "text" }
-              - { label: "Imagen", name: "image", widget: "image", required: false }
+              - { label: "Día y hora", name: "day_time", widget: "string" }
+              - { label: "Actividad", name: "activity", widget: "string" }
+
+          - { label: "Título de avisos", name: "announcements_title", widget: "string" }
+          - label: "Avisos"
+            name: "announcements"
+            widget: "list"
+            fields:
+              - { label: "Título del aviso", name: "title", widget: "string" }
+              - { label: "Descripción", name: "description", widget: "text" }
+
+          - { label: "Título de reflexión", name: "reflection_title", widget: "string" }
+          - { label: "Texto de reflexión", name: "reflection_text", widget: "text" }
+          - { label: "Autor", name: "reflection_author", widget: "string" }
+
+          - { label: "Título de contacto", name: "contact_title", widget: "string" }
+          - { label: "Dirección", name: "contact_address", widget: "string" }
+          - { label: "Teléfono", name: "contact_phone", widget: "string" }
+          - { label: "Correo", name: "contact_email", widget: "string" }
