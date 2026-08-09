@@ -2,7 +2,6 @@ backend:
   name: github
   repo: sebasyc/boletin-mensual-barrio-san-manuel
   branch: main
-  site_domain: boletin-mensual-barrio-san-manuel.netlify.app
 
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
@@ -15,31 +14,6 @@ collections:
         label: "Contenido del boletín"
         name: "home"
         fields:
-          - { label: "Título", name: "hero_title", widget: "string" }
-          - { label: "Subtítulo / Parroquia", name: "hero_subtitle", widget: "string" }
-          - { label: "Imagen de portada", name: "hero_image", widget: "image" }
-
-          - { label: "Título de horarios", name: "schedule_title", widget: "string" }
-          - label: "Horarios"
-            name: "schedule_items"
-            widget: "list"
-            fields:
-              - { label: "Día y hora", name: "day_time", widget: "string" }
-              - { label: "Actividad", name: "activity", widget: "string" }
-
-          - { label: "Título de avisos", name: "announcements_title", widget: "string" }
-          - label: "Avisos"
-            name: "announcements"
-            widget: "list"
-            fields:
-              - { label: "Título del aviso", name: "title", widget: "string" }
-              - { label: "Descripción", name: "description", widget: "text" }
-
-          - { label: "Título de reflexión", name: "reflection_title", widget: "string" }
-          - { label: "Texto de reflexión", name: "reflection_text", widget: "text" }
-          - { label: "Autor", name: "reflection_author", widget: "string" }
-
-          - { label: "Título de contacto", name: "contact_title", widget: "string" }
-          - { label: "Dirección", name: "contact_address", widget: "string" }
-          - { label: "Teléfono", name: "contact_phone", widget: "string" }
-          - { label: "Correo", name: "contact_email", widget: "string" }
+          - { label: "Título", name: "site_title", widget: "string" }
+          - { label: "Subtítulo", name: "site_subtitle", widget: "string" }
+          - { label: "Barrio", name: "site_neighborhood", widget: "string" }
