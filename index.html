@@ -4,15 +4,31 @@
 <meta charset="UTF-8" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 <title>Boletín mensual barrio San Manuel</title>
 </head>
 <body>
     <main>
-        <header>
-            <h1 id="site-title"></h1>
-            <h2 id="site-subtitle"></h2>
-            <h3 id="site-neighborhood"></h3>
-        </header>
+        <section class="hero-boletin">
+            <div class="header-bg-cloud"></div>
+            <div class="container hero-title">
+                <h1 id="site-title" data-parallax="0.4"></h1>
+            </div>
+            <div class="container hero-info" data-parallax="0.2">
+                <h2 id="site-subtitle"></h2>
+                <h3 id="site-neighborhood"></h3>
+            </div>
+            <span class="gradient-bottom"></span>
+        </section>
+        <section class="content-boletin">
+            <div class="container">
+                <div class="content-boletin__hr">
+                    <h2>Horarios Reunión sacramental</h2>
+                </div>
+            </div>
+        </section>
     </main>
     <script type="module" src="/src/main.js"></script>
 </body>
