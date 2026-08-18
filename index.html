@@ -11,6 +11,70 @@
 </head>
 <body>
     <main>
+        <!-- <a class="btn-float-lds" href="https://www.churchofjesuschrist.org/?lang=spa" target="_blank">
+            <img src="src/assets/images/logo-lds.png" alt="churchofjesuschrist">
+        </a> -->
+        <a class="btn-float-instagram" href="https://www.instagram.com/barriosanmanuel?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+            <i class="bi bi-instagram"></i>
+        </a>
+
+        <header class="top-header">
+            <a class="nav-logo" href="#">
+                <span>El Sinaí</span>
+            </a>
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#schedule-section">
+                            <span>Horarios dominicales</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#weekly-schedule-section">
+                            <span>Actividades semanales</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#announcements-section">
+                            <span>Anuncios</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#birthdays-section">
+                            <span>Cumpleaños del mes</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <span>Conociendo a ...</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <span>Pensamiento espiritual del mes</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <span>Destacado del ven sigueme</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="icon-hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+
         <section class="hero-boletin">
             <div class="header-bg-cloud"></div>
             <div class="container hero-title">
@@ -19,14 +83,49 @@
             <div class="container hero-info" data-parallax="0.2">
                 <h2 id="site-subtitle"></h2>
                 <h3 id="site-neighborhood"></h3>
+                <div class="hero-btn">
+                    <a href="https://maps.app.goo.gl/kwCCXGnawGcAkQRX9" target="_blank">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <span>Nuestra capilla</span>
+                    </a>
+                </div>
             </div>
             <span class="gradient-bottom"></span>
         </section>
-        <section class="content-boletin">
+
+        <section class="schedule-section" id="schedule-section">
             <div class="container">
-                <div class="content-boletin__hr">
-                    <h2>Horarios Reunión sacramental</h2>
+                <div class="titles dark">
+                    <h2 id="schedule-title"></h2>
                 </div>
+                <div class="accordion" id="schedule-accordion"></div>
+            </div>
+        </section>
+
+        <section class="weekly-schedule-section" id="weekly-schedule-section">
+            <div class="container">
+                <div class="titles light">
+                    <h2 id="weekly-schedule-title"></h2>
+                </div>
+                <div class="accordion" id="weekly-schedule-accordion"></div>
+            </div>
+        </section>
+
+        <section class="announcements-section" id="announcements-section">
+            <div class="container">
+                <div class="titles dark">
+                    <h2 id="announcements-title"></h2>
+                </div>
+                <div id="announcements-list"></div>
+            </div>
+        </section>
+
+        <section class="birthdays-section" id="birthdays-section">
+            <div class="container">
+                <div class="titles light">
+                    <h2 id="birthdays-title"></h2>
+                </div>
+                <ul id="birthdays-list"></ul>
             </div>
         </section>
     </main>

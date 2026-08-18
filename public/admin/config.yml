@@ -1,8 +1,3 @@
-backend:
-  name: github
-  repo: sebasyc/boletin-mensual-barrio-san-manuel
-  branch: main
-
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
 
@@ -17,3 +12,43 @@ collections:
           - { label: "Título", name: "site_title", widget: "string" }
           - { label: "Subtítulo", name: "site_subtitle", widget: "string" }
           - { label: "Barrio", name: "site_neighborhood", widget: "string" }
+
+          - { label: "Título de horarios", name: "schedule_title", widget: "string" }
+          - label: "Horarios"
+            name: "schedule_items"
+            widget: "list"
+            fields:
+              - { label: "Actividad", name: "activity", widget: "string" }
+              - { label: "Día y hora", name: "day_time", widget: "string" }
+              - label: "Descripción"
+                name: "description"
+                widget: "list"
+
+          - { label: "Título de actividades semanales", name: "weekly_schedule_title", widget: "string" }
+          - label: "Actividades semanales"
+            name: "weekly_schedule_items"
+            widget: "list"
+            fields:
+              - { label: "Actividad", name: "activity", widget: "string" }
+              - { label: "Día", name: "day", widget: "string" }
+              - { label: "Hora", name: "time", widget: "string" }
+              - label: "Descripción"
+                name: "description"
+                widget: "list"
+
+          - { label: "Título de anuncios", name: "announcements_title", widget: "string" }
+          - label: "anuncios"
+            name: "announcements"
+            widget: "list"
+            fields:
+              - { label: "Título del anuncio", name: "title", widget: "string" }
+              - { label: "Descripción", name: "description", widget: "text" }
+              - { label: "Día y hora", name: "day_time", widget: "string" }
+
+          - { label: "Título de cumpleaños", name: "birthdays_title", widget: "string" }
+          - label: "Cumpleaños"
+            name: "birthdays"
+            widget: "list"
+            fields:
+              - { label: "Nombre", name: "name", widget: "string" }
+              - { label: "Fecha", name: "date", widget: "string" }

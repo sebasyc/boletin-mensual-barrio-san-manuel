@@ -1,5 +1,138 @@
 {
   "site_title": "El Sinaí",
   "site_subtitle": "Boletín informativo",
-  "site_neighborhood": "Barrio San Manuel"
+  "site_neighborhood": "Barrio San Manuel",
+
+  "schedule_title": "Horarios dominicales",
+  "schedule_items": [
+    {
+      "activity": "Reunión sacramental",
+      "day_time": "Domingo 11:00 AM",
+      "description": [
+        "Tiene una duración de hasta 60 minutos.",
+        "Invita a la participación significativa en la adoración.",
+        "La reunión sacramental es un momento de gozo, reverencia y cálido hermanamiento centrados en el Salvador Jesucristo."
+      ]
+    },
+    {
+      "activity": "Escuela dominical",
+      "day_time": "Domingo 12:05 PM",
+      "description": [
+        "25 minutos.",
+        "Comienza después de una transición de 5 minutos posteriormente a la reunión sacramental.",
+        "Se estudian las Escrituras valiéndose de Ven, sígueme — Para el hogar y la Iglesia."
+      ]
+    },
+    {
+      "activity": "Cuórum de élderes y Sociedad de Socorro",
+      "day_time": "Domingo 12:30 PM",
+      "description": [
+        "25 minutos.",
+        "Comienza después de una transición de 5 minutos posteriormente a la Escuela Dominical.",
+        "Se estudian los discursos de la conferencia general más reciente mientras se habla sobre cómo ponerlos en práctica en la vida cotidiana."
+      ]
+    },
+    {
+      "activity": "Cuórums del Sacerdocio Aarónico y clases de las Mujeres Jóvenes",
+      "day_time": "Domingo 12:30 PM",
+      "description": [
+        "25 minutos.",
+        "Comienza después de una transición de 5 minutos posteriormente a la Escuela Dominical.",
+        "Se utiliza la versión actualizada de Para la Fortaleza de la Juventud: Una guía para tomar decisiones, con material complementario adicional de la revista Para la Fortaleza de la Juventud."
+      ]
+    },
+    {
+      "activity": "Primaria",
+      "day_time": "Domingo 12:05 PM",
+      "description": [
+        "55 minutos.",
+        "Comienza después de una transición de 5 minutos posteriormente a la reunión sacramental.",
+        "Incluye el tiempo para cantar, así como el estudio de las Escrituras en clase valiéndose de Ven, sígueme — Para el hogar y la Iglesia."
+      ]
+    }
+  ],
+  "weekly_schedule_title": "Actividades semanales",
+  "weekly_schedule_items": [
+    {
+      "activity": "Seminario",
+      "day": "Lunes a Jueves",
+      "time": "06:00 AM y 06:00 PM",
+      "description": [
+        "Lunes 06:00 AM, online",
+        "Martes 06:00 PM, online y presencial",
+        "Miercoles 06:00 AM, online",
+        "Jueves 06:30 PM, online y presencial"
+      ]
+    },
+    {
+      "activity": "Actividad de HHJJ y MMJJ",
+      "day": "Martes",
+      "time": "07:00 PM",
+      "description": [
+        "Primera semana del mes, actividad compartida"
+      ]
+    }
+  ],
+  "announcements_title": "Anuncios",
+  "announcements": [
+    {
+      "title": "Noche de hogar de barrio",
+      "description": "Actividad de barrio correspondiente a la semana de conferencia del barrio.",
+      "day_time": "Viernes 21 de agosto" 
+    },
+    {
+      "title": "Conferencia de barrio",
+      "description": "En la conferencia de barrio, los líderes de estaca instruyen, apoyan y ministran a los líderes y a los miembros del barrio. Los miembros del barrio sostienen a los líderes generales y locales.",
+      "day_time": "Domingo 23 de agosto, 11:00 AM" 
+    },
+    {
+      "title": "MeetUp 2026",
+      "description": "Actividad de hombres y mujeres jóvenes, participan jóvenes de 12 a 17 años.",
+      "day_time": "Sábado 29 de agosto" 
+    },
+    {
+      "title": "Cambio de horarios dominicales",
+      "description": "Inicio de los nuevos horarios dominicales",
+      "day_time": "Domingo 06 de septiembre" 
+    }
+  ],
+  "birthdays_title": "Cumpleaños del mes de agosto",
+  "birthdays": [
+    {
+      "name": "Rosa Maria Gutierrez Chaperon",
+      "date": "01 de agosto"
+    },
+    {
+      "name": "Jose Santos Diaz Soto",
+      "date": "02 de agosto"
+    },
+    {
+      "name": "Lautaro Salvador Correa Navarro",
+      "date": "03 de agosto"
+    },
+    {
+      "name": "Germán Nefi Arriagada Mendoza",
+      "date": "04 de agosto"
+    },
+    {
+      "name": "Soledad Cecilia Gutierrez Chaperon",
+      "date": "06 de agosto"
+    },
+    {
+      "name": "Kimberly Daneska Lara Pinto",
+      "date": "13 de agosto"
+    },
+    {
+      "name": "Catalina Torrealba Velasquez",
+      "date": "17 de agosto"
+    },
+    {
+      "name": "Guillermo Andrés Campos Carrasco",
+      "date": "22 de agosto"
+    },
+    {
+      "name": "Zahily Evelyn Pinto Miranda",
+      "date": "24 de agosto"
+    }
+  ]
 }
