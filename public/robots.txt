@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://boletin-mensual-barrio-san-manuel.netlify.app/sitemap.xml

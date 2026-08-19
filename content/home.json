@@ -1,5 +1,4 @@
 {
-  "site_title": "El Sinaí",
   "site_subtitle": "Boletín informativo",
   "site_neighborhood": "Barrio San Manuel",
 
@@ -96,7 +95,7 @@
       "day_time": "Domingo 06 de septiembre" 
     }
   ],
-  "birthdays_title": "Cumpleaños del mes de agosto",
+  "birthdays_title": "Cumpleaños en agosto",
   "birthdays": [
     {
       "name": "Rosa Maria Gutierrez Chaperon",
@@ -134,5 +133,27 @@
       "name": "Zahily Evelyn Pinto Miranda",
       "date": "24 de agosto"
     }
-  ]
+  ],
+  "member_spotlight_title": "Conociendo a",
+  "member_spotlight_photo": "./src/assets/images/hnoSantos.png",
+  "member_spotlight_name": "Hermano Heraldo Santos",
+  "member_spotlight_characteristics": [
+    "Su esposa se llama Heddy Ramirez y su Hijo se llama Alejandro Santos.",
+    "Tiene 8 hermanos (5 hombres y 3 mujeres) Él es el quinto hermano.",
+    "Alguno de sus pasatiempos o hobbies son componer música, tocar guitarra y bajo especialmente.",
+    "Conoció la iglesia en Punta Arenas, por un amigo de la orquesta que era miembro de la iglesia. Cuando regresaban de los ensayos, se iban caminando y conversaban sobre la iglesia. El amigo le dio la dirección a los misioneros y después, el Hermano Santos se bautizó."
+  ],
+  "member_spotlight_interviewer": "Por Martín González",
+  "scripture_title": "Pensamiento espiritual",
+  "scripture_text": "Confía en Jehová con todo tu corazón, y no te apoyes en tu propia prudencia. Reconócelo en todos tus caminos, y él enderezará tus veredas.",
+  "scripture_passage": "Proverbios 3:5-6",
+  "scripture_testimony": "Elegí esta escritura porque me enseña que debo confiar más en Dios y no pensar que siempre tengo que resolver todo por mi cuenta. A veces puedo tener problemas o no saber qué decisión tomar, pero este versículo me recuerda que puedo confiar en Dios y pedirle que me guíe. También me gusta porque me ayuda a recordar que, aunque no siempre entienda lo que está pasando, Dios puede ayudarme a encontrar el camino correcto. Por eso elegí esta escritura, porque siento que es un consejo que puedo aplicar en mi vida todos los días.",
+  "scripture_author": "Jherson Castellon",
+  "come_follow_me_title": "Destacado del Ven, Sígueme",
+  "come_follow_me_image": "./src/assets/images/ester.webp",
+  "come_follow_me_character": "Ester",
+  "come_follow_me_character_description": "Ester, una joven huérfana, se convierte en reina. Por medio de su fe y la ayuda de Mardoqueo, rescata a su pueblo y evita la muerte del rey.",
+  "come_follow_me_quote": "Lo que podría parecer una oportunidad al azar está, de hecho, dirigido por un amoroso Padre Celestial",
+  "come_follow_me_quote_author": "élder Ronald A. Rasband",
+  "come_follow_me_reflection": "Tú también tienes un propósito divino."
 }

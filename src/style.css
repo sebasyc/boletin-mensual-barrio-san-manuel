@@ -1,8 +1,6 @@
 :root {
     --primary-color: #2d2d2d;
     --secondary-color: #ff7f00;
-    --primary-green: #17c6b1;
-    --primary-blue: #27c7ff;
     --gray-text: #666666;
     --bg-white: #f2f2f2;
 
@@ -107,13 +105,13 @@ ul {
     &.dark h2 {
         color: var(--primary-color);
         &:after {
-            background-color: var(--primary-color);
+            background-color: var(--secondary-color);
         }
     }
     &.light h2 {
-        color: var(--primary-color);
+        color: white;
         &:after {
-            background-color: var(--secondary-color);
+            background-color: white;
         }
     }
 }
@@ -176,7 +174,6 @@ ul {
             color: var(--primary-color);
             border-radius: 10px;
             margin: .25em 0 .5em;
-            box-shadow: 3px 3px 20px rgba(45, 45, 45, .25);
             ul {
                 li {
                     position: relative;
@@ -213,7 +210,7 @@ ul {
         top: 16px;
         left: -100%;
         z-index: 20;
-        box-shadow: 0 0 20px rgba(255, 127, 0, .85);
+        box-shadow: 3px 3px 20px rgba(45, 45, 45, .35);
         transition: 1s;
         span {
             display: block;
@@ -452,8 +449,12 @@ ul {
     }
 }
 
+section[id] {
+  scroll-margin-top: 30px;
+}
+
 .schedule-section {
-    padding: 0 0 3em;
+    padding: 3em 0;
     background-color: var(--secondary-color);
 }
 
@@ -473,7 +474,7 @@ ul {
         box-shadow: 3px 3px 20px rgba(45, 45, 45, .25);
         h3 {
             margin: 0 0 .5em;
-            font-size: 1.25em;
+            font-size: 1.125em;
             font-weight: 900;
             text-transform: uppercase;
         }
@@ -483,6 +484,9 @@ ul {
         }
         .day-time {
             margin: .5em 0 0;
+            p {
+                font-size: 1em;
+            }
         }
     }
 }
@@ -528,6 +532,169 @@ ul {
                     font-weight: 700;
                 }
             }
+        }
+    }
+}
+
+.member-spotlight-section {
+    padding: 3em 0;
+    background-color: var(--primary-color);
+    color: white;
+    h3 {
+        margin: 0 0 .5em;
+        font-size: 1.65em;
+        text-align: center;
+        font-family: var(--secondary-font);
+        text-transform: uppercase;
+    }
+    .photo-member {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 1.5em;
+        border: 5px solid var(--secondary-color);
+        border-radius: 100%;
+        box-shadow: 0 0 30px rgba(255, 127, 0, .85);
+        overflow: hidden;
+        img {
+            width: 100%;
+        }
+    }
+    ul {
+        li {
+            position: relative;
+            margin: 0 0 .5em;
+            padding-left: .875em;
+            font-size: .875em;
+            color: white;
+            &:before {
+                content: "";
+                position: absolute;
+                width: 4px;
+                height: 4px;
+                border-radius: 100%;
+                background-color: var(--secondary-color);
+                top: 9px;
+                left: 0;
+            }
+        }
+    }
+    p {
+        font-size: .875em;
+        color: white;
+    }
+    .autor-spotlight {
+        font-size: .75em;
+        color: white;
+        opacity: .7;
+        font-style: italic;
+    }
+}
+
+.scripture-section {
+    padding: 3em 0;
+    background-color: var(--bg-white);
+    .scripture-highlighted {
+        font-size: .875em;
+        font-style: italic;
+    }
+    .scripture-passage {
+        display: block;
+        margin-bottom: 2em;
+        font-size: .875em;
+        font-weight: 700;
+    }
+    blockquote {
+        position: relative;
+        padding: 2em 1.5em 1em;
+        border-radius: 10px;
+        background-color: var(--primary-color);
+        i {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--secondary-color);
+            position: absolute;
+            border-radius: 100%;
+            font-size: 1.5em;
+            color: var(--primary-color);
+            top: -25px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        .scripture-testimony {
+            font-size: .875em;
+            color: white;
+            font-style: italic;
+        }
+        cite {
+            font-size: .875em;
+            color: var(--secondary-color);
+            font-weight: 700;
+        }
+    }
+}
+
+.come-follow-me-section {
+    padding: 3em 0;
+    background-color: var(--secondary-color);
+    .box-img {
+        margin: 0 -12px 1em;
+        img {
+            width: 100%;
+        }
+    }
+    h3 {
+        margin: 0 0 .5em;
+        font-size: 1.75em;
+        color: var(--primary-color);
+        font-family: var(--secondary-font);
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    p.description {
+        font-size: .875em;
+        color: var(--primary-color);
+        font-weight: 600;
+    }
+    p.reflection {
+        font-size: .875em;
+        font-weight: 700;
+    }
+    blockquote {
+        position: relative;
+        margin: 1.5em 0 1em;
+        padding: 2em 1.5em 1em;
+        border-radius: 10px;
+        background-color: var(--primary-color);
+        i {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            position: absolute;
+            border-radius: 100%;
+            font-size: 1.5em;
+            color: var(--primary-color);
+            top: -25px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        .quote {
+            color: white;
+            font-size: .875em;
+            font-style: italic;
+        }
+        cite {
+            font-size: .875em;
+            color: var(--secondary-color);
+            font-weight: 700;
         }
     }
 }

@@ -19,7 +19,6 @@ AOS.init({
   offset: 100, 
 })
 
-document.querySelector('#site-title').textContent = content.site_title;
 document.querySelector('#site-subtitle').textContent = content.site_subtitle;
 document.querySelector('#site-neighborhood').textContent = content.site_neighborhood;
 
@@ -110,3 +109,30 @@ content.birthdays.forEach(item => {
   `;
   birthdaysList.appendChild(li);
 });
+
+document.querySelector('#member-spotlight-title').textContent = content.member_spotlight_title;
+document.querySelector('#member-spotlight-photo').src = content.member_spotlight_photo;
+document.querySelector('#member-spotlight-name').textContent = content.member_spotlight_name;
+
+const characteristicsList = document.querySelector('#member-spotlight-characteristics');
+content.member_spotlight_characteristics.forEach(point => {
+  const li = document.createElement('li');
+  li.textContent = point;
+  characteristicsList.appendChild(li);
+});
+
+document.querySelector('#member-spotlight-interviewer').textContent = content.member_spotlight_interviewer;
+
+document.querySelector('#scripture-title').textContent = content.scripture_title;
+document.querySelector('#scripture-text').textContent = content.scripture_text;
+document.querySelector('#scripture-passage').textContent = content.scripture_passage;
+document.querySelector('#scripture-testimony').textContent = content.scripture_testimony;
+document.querySelector('#scripture-author').textContent = content.scripture_author;
+
+document.querySelector('#come-follow-me-title').textContent = content.come_follow_me_title;
+document.querySelector('#come-follow-me-image').src = content.come_follow_me_image;
+document.querySelector('#come-follow-me-character').textContent = content.come_follow_me_character;
+document.querySelector('#come-follow-me-character-description').textContent = content.come_follow_me_character_description;
+document.querySelector('#come-follow-me-quote').textContent = content.come_follow_me_quote;
+document.querySelector('#come-follow-me-quote-author').textContent = content.come_follow_me_quote_author;
+document.querySelector('#come-follow-me-reflection').textContent = content.come_follow_me_reflection;

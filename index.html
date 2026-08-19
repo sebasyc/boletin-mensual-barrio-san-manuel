@@ -2,18 +2,37 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8" />
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 <title>Boletín mensual barrio San Manuel</title>
+<meta name="description" content="EL SINAÍ, boletín mensual, barrio San Manuel" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://boletin-mensual-barrio-san-manuel.netlify.app/" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="EL SINAÍ, boletín mensual, barrio San Manuel" />
+<meta property="og:description" content="Horarios de actividades, avisos, cumpleaños y reflexiones espirituales del barrio San Manuel." />
+<meta property="og:image" content="https://boletin-mensual-barrio-san-manuel.netlify.app/images/uploads/og-image.jpg" />
+<meta property="og:url" content="https://boletin-mensual-barrio-san-manuel.netlify.app/" />
+<meta property="og:locale" content="es_CL" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="EL SINAÍ, boletín mensual, barrio San Manuel" />
+<meta name="twitter:description" content="Horarios de actividades, avisos, cumpleaños y reflexiones espirituales del barrio San Manuel." />
+<meta name="twitter:image" content="https://boletin-mensual-barrio-san-manuel.netlify.app/images/uploads/og-image.jpg" />
 </head>
 <body>
     <main>
-        <!-- <a class="btn-float-lds" href="https://www.churchofjesuschrist.org/?lang=spa" target="_blank">
+        <a class="btn-float-lds" href="https://www.churchofjesuschrist.org/?lang=spa" target="_blank">
             <img src="src/assets/images/logo-lds.png" alt="churchofjesuschrist">
-        </a> -->
+        </a>
         <a class="btn-float-instagram" href="https://www.instagram.com/barriosanmanuel?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
             <i class="bi bi-instagram"></i>
         </a>
@@ -49,19 +68,19 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#">
+                        <a href="#member-spotlight-section">
                             <span>Conociendo a ...</span>
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#">
-                            <span>Pensamiento espiritual del mes</span>
+                        <a href="#scripture-section">
+                            <span>Pensamiento espiritual</span>
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#">
+                        <a href="#come-follow-me-section">
                             <span>Destacado del ven sigueme</span>
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -78,7 +97,7 @@
         <section class="hero-boletin">
             <div class="header-bg-cloud"></div>
             <div class="container hero-title">
-                <h1 id="site-title" data-parallax="0.4"></h1>
+                <h1 data-parallax="0.4">El Sinaí</h1>
             </div>
             <div class="container hero-info" data-parallax="0.2">
                 <h2 id="site-subtitle"></h2>
@@ -95,7 +114,7 @@
 
         <section class="schedule-section" id="schedule-section">
             <div class="container">
-                <div class="titles dark">
+                <div class="titles light">
                     <h2 id="schedule-title"></h2>
                 </div>
                 <div class="accordion" id="schedule-accordion"></div>
@@ -104,7 +123,7 @@
 
         <section class="weekly-schedule-section" id="weekly-schedule-section">
             <div class="container">
-                <div class="titles light">
+                <div class="titles dark">
                     <h2 id="weekly-schedule-title"></h2>
                 </div>
                 <div class="accordion" id="weekly-schedule-accordion"></div>
@@ -113,7 +132,7 @@
 
         <section class="announcements-section" id="announcements-section">
             <div class="container">
-                <div class="titles dark">
+                <div class="titles light">
                     <h2 id="announcements-title"></h2>
                 </div>
                 <div id="announcements-list"></div>
@@ -122,12 +141,62 @@
 
         <section class="birthdays-section" id="birthdays-section">
             <div class="container">
-                <div class="titles light">
+                <div class="titles dark">
                     <h2 id="birthdays-title"></h2>
                 </div>
                 <ul id="birthdays-list"></ul>
             </div>
         </section>
+
+        <section class="member-spotlight-section" id="member-spotlight-section">
+            <div class="container">
+                <div class="titles light">
+                    <h2 id="member-spotlight-title"></h2>
+                </div>
+                <div class="photo-member">
+                    <img id="member-spotlight-photo" src="" alt="Foto del miembro" />
+                </div>
+                <h3 id="member-spotlight-name"></h3>
+                <ul id="member-spotlight-characteristics"></ul>
+                <p id="member-spotlight-description"></p>
+                <span class="autor-spotlight" id="member-spotlight-interviewer"></span>
+            </div>
+        </section>
+
+        <section class="scripture-section" id="scripture-section">
+            <div class="container">
+                <div class="titles dark">
+                    <h2 id="scripture-title"></h2>
+                </div>
+                <p class="scripture" id="scripture-text"></p>
+                <span class="scripture-passage" id="scripture-passage"></span>
+                <blockquote>
+                    <i class="bi bi-quote"></i>
+                    <p class="scripture-testimony" id="scripture-testimony"></p>
+                    <cite class="scripture-author" id="scripture-author"></cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="come-follow-me-section" id="come-follow-me-section">
+            <div class="container">
+                <div class="titles light">
+                    <h2 id="come-follow-me-title"></h2>
+                </div>
+                <div class="box-img">
+                    <img id="come-follow-me-image" src="" alt="Personaje bíblico" />
+                </div>
+                <h3 id="come-follow-me-character"></h3>
+                <p class="description" id="come-follow-me-character-description"></p>
+                <blockquote>
+                    <i class="bi bi-quote"></i>
+                    <p class="quote" id="come-follow-me-quote"></p>
+                    <cite id="come-follow-me-quote-author"></cite>
+                </blockquote>
+                <p class="reflection" id="come-follow-me-reflection"></p>
+            </div>
+        </section>
+
     </main>
     <script type="module" src="/src/main.js"></script>
 </body>

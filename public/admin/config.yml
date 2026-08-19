@@ -9,7 +9,6 @@ collections:
         label: "Contenido del boletín"
         name: "home"
         fields:
-          - { label: "Título", name: "site_title", widget: "string" }
           - { label: "Subtítulo", name: "site_subtitle", widget: "string" }
           - { label: "Barrio", name: "site_neighborhood", widget: "string" }
 
@@ -37,7 +36,7 @@ collections:
                 widget: "list"
 
           - { label: "Título de anuncios", name: "announcements_title", widget: "string" }
-          - label: "anuncios"
+          - label: "Anuncios"
             name: "announcements"
             widget: "list"
             fields:
@@ -52,3 +51,25 @@ collections:
             fields:
               - { label: "Nombre", name: "name", widget: "string" }
               - { label: "Fecha", name: "date", widget: "string" }
+
+          - { label: "Título de conociendo al hermano/a", name: "member_spotlight_title", widget: "string" }
+          - { label: "Foto", name: "member_spotlight_photo", widget: "image" }
+          - { label: "Nombre del hermano o hermana", name: "member_spotlight_name", widget: "string" }
+          - label: "Características"
+            name: "member_spotlight_characteristics"
+            widget: "list"
+          - { label: "Autor de la entrevista", name: "member_spotlight_interviewer", widget: "string" }
+
+          - { label: "Pensamiento espiritual", name: "scripture_title", widget: "string" }
+          - { label: "Escritura", name: "scripture_text", widget: "string" }
+          - { label: "Pasaje", name: "scripture_passage", widget: "string" }
+          - { label: "Testimonio", name: "scripture_testimony", widget: "string" }
+          - { label: "Autor del testimonio", name: "scripture_author", widget: "string" }
+
+          - { label: "Título Ven, Sígueme", name: "come_follow_me_title", widget: "string" }
+          - { label: "Imagen", name: "come_follow_me_image", widget: "image" }
+          - { label: "Personaje bíblico", name: "come_follow_me_character", widget: "string" }
+          - { label: "Descripción del personaje", name: "come_follow_me_character_description", widget: "text" }
+          - { label: "Cita del apóstol", name: "come_follow_me_quote", widget: "text" }
+          - { label: "Autor de la cita", name: "come_follow_me_quote_author", widget: "string" }
+          - { label: "Reflexión o moraleja", name: "come_follow_me_reflection", widget: "text" }
