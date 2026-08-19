@@ -135,7 +135,7 @@
     }
   ],
   "member_spotlight_title": "Conociendo a",
-  "member_spotlight_photo": "./src/assets/images/hnoSantos.png",
+  "member_spotlight_photo": "images/uploads/hnoSantos.png",
   "member_spotlight_name": "Hermano Heraldo Santos",
   "member_spotlight_characteristics": [
     "Su esposa se llama Heddy Ramirez y su Hijo se llama Alejandro Santos.",
@@ -150,7 +150,7 @@
   "scripture_testimony": "Elegí esta escritura porque me enseña que debo confiar más en Dios y no pensar que siempre tengo que resolver todo por mi cuenta. A veces puedo tener problemas o no saber qué decisión tomar, pero este versículo me recuerda que puedo confiar en Dios y pedirle que me guíe. También me gusta porque me ayuda a recordar que, aunque no siempre entienda lo que está pasando, Dios puede ayudarme a encontrar el camino correcto. Por eso elegí esta escritura, porque siento que es un consejo que puedo aplicar en mi vida todos los días.",
   "scripture_author": "Jherson Castellon",
   "come_follow_me_title": "Destacado del Ven, Sígueme",
-  "come_follow_me_image": "./src/assets/images/ester.webp",
+  "come_follow_me_image": "images/uploads/ester.webp",
   "come_follow_me_character": "Ester",
   "come_follow_me_character_description": "Ester, una joven huérfana, se convierte en reina. Por medio de su fe y la ayuda de Mardoqueo, rescata a su pueblo y evita la muerte del rey.",
   "come_follow_me_quote": "Lo que podría parecer una oportunidad al azar está, de hecho, dirigido por un amoroso Padre Celestial",
