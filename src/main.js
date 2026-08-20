@@ -19,6 +19,23 @@ AOS.init({
   offset: 100, 
 })
 
+function openChurchLink(webUrl) {
+  const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+  if (!isMobile) {
+    window.open(webUrl, '_blank');
+    return;
+  }
+
+  const appUrl = 'gospellibrary://content?lang=spa';
+  const fallbackTimer = setTimeout(() => {
+    window.location.href = webUrl;
+  }, 1500);
+
+  window.addEventListener('blur', () => clearTimeout(fallbackTimer), { once: true });
+  window.location.href = appUrl;
+}
+
 document.querySelector('#site-subtitle').textContent = content.site_subtitle;
 document.querySelector('#site-neighborhood').textContent = content.site_neighborhood;
 
