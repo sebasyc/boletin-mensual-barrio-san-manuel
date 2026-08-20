@@ -36,6 +36,11 @@ function openChurchLink(webUrl) {
   window.location.href = appUrl;
 }
 
+document.querySelector('#church-link').addEventListener('click', (e) => {
+  e.preventDefault();
+  openChurchLink('https://www.churchofjesuschrist.org/?lang=spa');
+});
+
 document.querySelector('#site-subtitle').textContent = content.site_subtitle;
 document.querySelector('#site-neighborhood').textContent = content.site_neighborhood;
 
