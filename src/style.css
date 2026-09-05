@@ -198,6 +198,14 @@ ul {
 }
 
 .top-header {
+    position: relative;
+    .img-top-special {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 20;
+    }
     .nav-logo {
         opacity: 0;
         visibility: hidden;
