@@ -1,8 +1,94 @@
 {
-  "site_subtitle": "Boletín informativo",
+  "scripture_testimony": "Elegí esta escritura porque me enseña que debo confiar más en Dios y no pensar que siempre tengo que resolver todo por mi cuenta. A veces puedo tener problemas o no saber qué decisión tomar, pero este versículo me recuerda que puedo confiar en Dios y pedirle que me guíe. También me gusta porque me ayuda a recordar que, aunque no siempre entienda lo que está pasando, Dios puede ayudarme a encontrar el camino correcto. Por eso elegí esta escritura, porque siento que es un consejo que puedo aplicar en mi vida todos los días.",
+  "come_follow_me_quote_author": "élder Ronald A. Rasband",
+  "member_spotlight_photo": "images/uploads/hnoSantos.png",
+  "come_follow_me_title": "Destacado del Ven, Sígueme",
+  "announcements_title": "Anuncios",
   "site_neighborhood": "Barrio San Manuel",
-
+  "come_follow_me_image": "images/uploads/ester.webp",
+  "member_spotlight_title": "Conociendo a",
+  "come_follow_me_quote": "Lo que podría parecer una oportunidad al azar está, de hecho, dirigido por un amoroso Padre Celestial",
+  "member_spotlight_characteristics": [
+    "Su esposa se llama Heddy Ramirez y su Hijo se llama Alejandro Santos.",
+    "Tiene 8 hermanos (5 hombres y 3 mujeres) Él es el quinto hermano.",
+    "Alguno de sus pasatiempos o hobbies son componer música, tocar guitarra y bajo especialmente.",
+    "Conoció la iglesia en Punta Arenas, por un amigo de la orquesta que era miembro de la iglesia. Cuando regresaban de los ensayos, se iban caminando y conversaban sobre la iglesia. El amigo le dio la dirección a los misioneros y después, el Hermano Santos se bautizó."
+  ],
+  "announcements": [
+    {
+      "title": "Noche de hogar de barrio",
+      "description": "Actividad de barrio correspondiente a la semana de conferencia del barrio.",
+      "day_time": "Viernes 21 de agosto"
+    },
+    {
+      "title": "Conferencia de barrio",
+      "description": "En la conferencia de barrio, los líderes de estaca instruyen, apoyan y ministran a los líderes y a los miembros del barrio. Los miembros del barrio sostienen a los líderes generales y locales.",
+      "day_time": "Domingo 23 de agosto, 11:00 AM"
+    },
+    {
+      "title": "MeetUp 2026",
+      "description": "Actividad de hombres y mujeres jóvenes, participan jóvenes de 12 a 17 años.",
+      "day_time": "Sábado 29 de agosto"
+    },
+    {
+      "title": "Cambio de horarios dominicales",
+      "description": "Inicio de los nuevos horarios dominicales",
+      "day_time": "Domingo 06 de septiembre"
+    }
+  ],
+  "scripture_passage": "Proverbios 3:5-6",
+  "scripture_author": "Jherson Castellon",
+  "weekly_schedule_title": "Actividades semanales",
+  "birthdays_title": "Cumpleaños en septiembre",
+  "scripture_text": "Confía en Jehová con todo tu corazón, y no te apoyes en tu propia prudencia. Reconócelo en todos tus caminos, y él enderezará tus veredas.",
+  "site_subtitle": "Boletín informativo",
   "schedule_title": "Horarios dominicales",
+  "come_follow_me_character_description": "Ester, una joven huérfana, se convierte en reina. Por medio de su fe y la ayuda de Mardoqueo, rescata a su pueblo y evita la muerte del rey.",
+  "come_follow_me_character": "Ester",
+  "scripture_title": "Pensamiento espiritual",
+  "birthdays": [
+    {
+      "name": "Daniela Fuentealba",
+      "date": "11 de septiembre"
+    },
+    {
+      "name": "Hector Sosa",
+      "date": "14 de septiembre"
+    },
+    {
+      "name": "Montserrat Poblete",
+      "date": "14 de septiembre"
+    },
+    {
+      "name": "Gabiel Chavez",
+      "date": "22 de septiembre"
+    },
+    {
+      "name": "Santiago Guajardo",
+      "date": "24 de septiembre"
+    }
+  ],
+  "weekly_schedule_items": [
+    {
+      "activity": "Seminario",
+      "day": "Lunes a Jueves",
+      "time": "06:00 AM y 06:00 PM",
+      "description": [
+        "Lunes 06:00 AM, online",
+        "Martes 06:00 PM, online y presencial",
+        "Miercoles 06:00 AM, online",
+        "Jueves 06:30 PM, online y presencial"
+      ]
+    },
+    {
+      "activity": "Actividad de HHJJ y MMJJ",
+      "day": "Martes",
+      "time": "07:30 PM",
+      "description": [
+        "Primera semana del mes, actividad compartida"
+      ]
+    }
+  ],
   "schedule_items": [
     {
       "activity": "Reunión sacramental",
@@ -50,110 +136,7 @@
       ]
     }
   ],
-  "weekly_schedule_title": "Actividades semanales",
-  "weekly_schedule_items": [
-    {
-      "activity": "Seminario",
-      "day": "Lunes a Jueves",
-      "time": "06:00 AM y 06:00 PM",
-      "description": [
-        "Lunes 06:00 AM, online",
-        "Martes 06:00 PM, online y presencial",
-        "Miercoles 06:00 AM, online",
-        "Jueves 06:30 PM, online y presencial"
-      ]
-    },
-    {
-      "activity": "Actividad de HHJJ y MMJJ",
-      "day": "Martes",
-      "time": "07:30 PM",
-      "description": [
-        "Primera semana del mes, actividad compartida"
-      ]
-    }
-  ],
-  "announcements_title": "Anuncios",
-  "announcements": [
-    {
-      "title": "Noche de hogar de barrio",
-      "description": "Actividad de barrio correspondiente a la semana de conferencia del barrio.",
-      "day_time": "Viernes 21 de agosto" 
-    },
-    {
-      "title": "Conferencia de barrio",
-      "description": "En la conferencia de barrio, los líderes de estaca instruyen, apoyan y ministran a los líderes y a los miembros del barrio. Los miembros del barrio sostienen a los líderes generales y locales.",
-      "day_time": "Domingo 23 de agosto, 11:00 AM" 
-    },
-    {
-      "title": "MeetUp 2026",
-      "description": "Actividad de hombres y mujeres jóvenes, participan jóvenes de 12 a 17 años.",
-      "day_time": "Sábado 29 de agosto" 
-    },
-    {
-      "title": "Cambio de horarios dominicales",
-      "description": "Inicio de los nuevos horarios dominicales",
-      "day_time": "Domingo 06 de septiembre" 
-    }
-  ],
-  "birthdays_title": "Cumpleaños en agosto",
-  "birthdays": [
-    {
-      "name": "Rosa Maria Gutierrez Chaperon",
-      "date": "01 de agosto"
-    },
-    {
-      "name": "Jose Santos Diaz Soto",
-      "date": "02 de agosto"
-    },
-    {
-      "name": "Lautaro Salvador Correa Navarro",
-      "date": "03 de agosto"
-    },
-    {
-      "name": "Germán Nefi Arriagada Mendoza",
-      "date": "04 de agosto"
-    },
-    {
-      "name": "Soledad Cecilia Gutierrez Chaperon",
-      "date": "06 de agosto"
-    },
-    {
-      "name": "Kimberly Daneska Lara Pinto",
-      "date": "13 de agosto"
-    },
-    {
-      "name": "Catalina Torrealba Velasquez",
-      "date": "17 de agosto"
-    },
-    {
-      "name": "Guillermo Andrés Campos Carrasco",
-      "date": "22 de agosto"
-    },
-    {
-      "name": "Zahily Evelyn Pinto Miranda",
-      "date": "24 de agosto"
-    }
-  ],
-  "member_spotlight_title": "Conociendo a",
-  "member_spotlight_photo": "images/uploads/hnoSantos.png",
   "member_spotlight_name": "Hermano Heraldo Santos",
-  "member_spotlight_characteristics": [
-    "Su esposa se llama Heddy Ramirez y su Hijo se llama Alejandro Santos.",
-    "Tiene 8 hermanos (5 hombres y 3 mujeres) Él es el quinto hermano.",
-    "Alguno de sus pasatiempos o hobbies son componer música, tocar guitarra y bajo especialmente.",
-    "Conoció la iglesia en Punta Arenas, por un amigo de la orquesta que era miembro de la iglesia. Cuando regresaban de los ensayos, se iban caminando y conversaban sobre la iglesia. El amigo le dio la dirección a los misioneros y después, el Hermano Santos se bautizó."
-  ],
   "member_spotlight_interviewer": "Por Martín González",
-  "scripture_title": "Pensamiento espiritual",
-  "scripture_text": "Confía en Jehová con todo tu corazón, y no te apoyes en tu propia prudencia. Reconócelo en todos tus caminos, y él enderezará tus veredas.",
-  "scripture_passage": "Proverbios 3:5-6",
-  "scripture_testimony": "Elegí esta escritura porque me enseña que debo confiar más en Dios y no pensar que siempre tengo que resolver todo por mi cuenta. A veces puedo tener problemas o no saber qué decisión tomar, pero este versículo me recuerda que puedo confiar en Dios y pedirle que me guíe. También me gusta porque me ayuda a recordar que, aunque no siempre entienda lo que está pasando, Dios puede ayudarme a encontrar el camino correcto. Por eso elegí esta escritura, porque siento que es un consejo que puedo aplicar en mi vida todos los días.",
-  "scripture_author": "Jherson Castellon",
-  "come_follow_me_title": "Destacado del Ven, Sígueme",
-  "come_follow_me_image": "images/uploads/ester.webp",
-  "come_follow_me_character": "Ester",
-  "come_follow_me_character_description": "Ester, una joven huérfana, se convierte en reina. Por medio de su fe y la ayuda de Mardoqueo, rescata a su pueblo y evita la muerte del rey.",
-  "come_follow_me_quote": "Lo que podría parecer una oportunidad al azar está, de hecho, dirigido por un amoroso Padre Celestial",
-  "come_follow_me_quote_author": "élder Ronald A. Rasband",
   "come_follow_me_reflection": "Tú también tienes un propósito divino."
 }
