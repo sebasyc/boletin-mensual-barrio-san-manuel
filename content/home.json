@@ -16,24 +16,9 @@
   ],
   "announcements": [
     {
-      "title": "Noche de hogar de barrio",
-      "description": "Actividad de barrio correspondiente a la semana de conferencia del barrio.",
-      "day_time": "Viernes 21 de agosto"
-    },
-    {
-      "title": "Conferencia de barrio",
-      "description": "En la conferencia de barrio, los líderes de estaca instruyen, apoyan y ministran a los líderes y a los miembros del barrio. Los miembros del barrio sostienen a los líderes generales y locales.",
-      "day_time": "Domingo 23 de agosto, 11:00 AM"
-    },
-    {
-      "title": "MeetUp 2026",
-      "description": "Actividad de hombres y mujeres jóvenes, participan jóvenes de 12 a 17 años.",
-      "day_time": "Sábado 29 de agosto"
-    },
-    {
-      "title": "Cambio de horarios dominicales",
-      "description": "Inicio de los nuevos horarios dominicales",
-      "day_time": "Domingo 06 de septiembre"
+      "title": "Actividad fiestas patrias",
+      "day_time": "Sábado 28 de septiembre desde las 14:00 hrs.",
+      "description": "Ven a disfrutar en familia a nuestra actividad de fiestas patrias de nuestro barrio."
     }
   ],
   "scripture_passage": "Proverbios 3:5-6",
