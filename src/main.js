@@ -119,7 +119,6 @@ content.announcements.forEach(item => {
 document.querySelector('#birthdays-title').textContent = content.birthdays_title;
 
 const birthdaysList = document.querySelector('#birthdays-list');
-
 content.birthdays.forEach(item => {
   const li = document.createElement('li');
   li.innerHTML = `
@@ -137,9 +136,12 @@ document.querySelector('#member-spotlight-photo').src = content.member_spotlight
 document.querySelector('#member-spotlight-name').textContent = content.member_spotlight_name;
 
 const characteristicsList = document.querySelector('#member-spotlight-characteristics');
-content.member_spotlight_characteristics.forEach(point => {
+content.characteristics.forEach(item => {
   const li = document.createElement('li');
-  li.textContent = point;
+  li.innerHTML = `
+    <h4>${item.question}</h4>
+    <p>${item.answer}</p>
+  `;
   characteristicsList.appendChild(li);
 });
 

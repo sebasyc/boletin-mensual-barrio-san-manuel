@@ -63,6 +63,9 @@ collections:
           - label: "Características"
             name: "member_spotlight_characteristics"
             widget: "list"
+            fields:
+              - { label: "Pregunta", name: "question", widget: "string" }
+              - { label: "Respuesta", name: "answer", widget: "string" }
           - { label: "Autor de la entrevista", name: "member_spotlight_interviewer", widget: "string" }
 
           - { label: "Pensamiento espiritual", name: "scripture_title", widget: "string" }

@@ -578,7 +578,6 @@ section[id] {
             position: relative;
             margin: 0 0 .5em;
             padding-left: .875em;
-            font-size: .875em;
             color: white;
             &:before {
                 content: "";
@@ -591,6 +590,11 @@ section[id] {
                 left: 0;
             }
         }
+    }
+    h4 {
+        font-size: 1em;
+        font-weight: bold;
+        margin-bottom: .5em;
     }
     p {
         font-size: .875em;

@@ -7,6 +7,7 @@
   "site_neighborhood": "Barrio San Manuel",
   "come_follow_me_image": "images/uploads/ester.webp",
   "member_spotlight_title": "Conociendo a",
+
   "come_follow_me_quote": "Lo que podría parecer una oportunidad al azar está, de hecho, dirigido por un amoroso Padre Celestial",
   "member_spotlight_characteristics": [],
   "announcements": [
@@ -154,5 +155,15 @@
   ],
   "member_spotlight_name": "Hermana Erika Arteaga",
   "member_spotlight_interviewer": "Por Martín González",
+  "characteristics": [
+    {
+      "question": "Historia o anécdota graciosa 😅",
+      "answer": "Mientras me encontraba en la misión, viví una experiencia inesperada y chistosa a la vez! Un día de reposo, en invierno; la iglesia a la que asistíamos era pequeña y tenía una estufa pellets muy grande, y yo justo llevaba una falda nueva “muy inflamable” y en plena reunion me senté muy cerca y se incendió mi falda totalmente jajajaj, ese día me quedé sin falda pero gané una nueva (me ataron una cortina vieja a la cintura con un cole para el cabello) y así caminé por toda la calle y estuve toda la reunión."
+    },
+    {
+      "question": "¿Hermanos?",
+      "answer": "Tengo 6 hermanos y yo soy la menor"
+    }
+  ],
   "come_follow_me_reflection": "Tú también tienes un propósito divino."
 }
