@@ -24,7 +24,7 @@
   "scripture_passage": "Proverbios 3:5-6",
   "scripture_author": "Jherson Castellon",
   "weekly_schedule_title": "Actividades semanales",
-  "birthdays_title": "Cumpleaños en septiembre",
+  "birthdays_title": "Cumpleaños en octubre",
   "scripture_text": "Confía en Jehová con todo tu corazón, y no te apoyes en tu propia prudencia. Reconócelo en todos tus caminos, y él enderezará tus veredas.",
   "site_subtitle": "Boletín informativo",
   "schedule_title": "Horarios dominicales",
@@ -33,24 +33,60 @@
   "scripture_title": "Pensamiento espiritual",
   "birthdays": [
     {
-      "name": "Daniela Fuentealba",
-      "date": "11 de septiembre"
+      "name": "Gloria del Carmen Arriaza",
+      "date": "01 de octubre"
     },
     {
-      "name": "Hector Sosa",
-      "date": "14 de septiembre"
+      "name": "Jessica Copatite",
+      "date": "02 de octubre"
     },
     {
-      "name": "Montserrat Poblete",
-      "date": "14 de septiembre"
+      "name": "Angélica Yucra",
+      "date": "02 de octubre"
     },
     {
-      "name": "Gabiel Chavez",
-      "date": "22 de septiembre"
+      "name": "Sandra Ponce",
+      "date": "04 de octubre"
     },
     {
-      "name": "Santiago Guajardo",
-      "date": "24 de septiembre"
+      "name": "Manuel Ponce",
+      "date": "04 de octubre"
+    },
+    {
+      "name": "Juan Arriagada",
+      "date": "06 de octubre"
+    },
+    {
+      "name": "Mateo Chavez",
+      "date": "07 de octubre"
+    },
+    {
+      "name": "Manuel Salamanca",
+      "date": "07 de octubre"
+    },
+    {
+      "name": "Alejandra Vidal",
+      "date": "10 de octubre"
+    },
+    {
+      "name": "Hector Fuentealba",
+      "date": "12 de octubre"
+    },
+    {
+      "name": "Ilse Villablanca",
+      "date": "21 de octubre"
+    },
+    {
+      "name": "Jherson Castellon",
+      "date": "24 de octubre"
+    },
+    {
+      "name": "Carolina Carrasco",
+      "date": "25 de octubre"
+    },
+    {
+      "name": "Clara Osorio",
+      "date": "25 de octubre"
     }
   ],
   "weekly_schedule_items": [
