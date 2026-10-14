@@ -494,6 +494,7 @@ section[id] {
         .subtitle {
             font-size: .875em;
             color: var(--gray-text);
+            white-space: pre-line;
         }
         .day-time {
             margin: .5em 0 0;
